@@ -4,6 +4,6 @@
 $(call inherit-product, device/samsung/star2lte/full_star2lte.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_star2lte
+PRODUCT_NAME := aosp_star2lte

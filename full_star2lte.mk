@@ -16,3 +16,10 @@ PRODUCT_MODEL := SM-G965F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1440
+
+# PixelExperience stuff
+TARGET_GAPPS_ARCH := arm64
+TARGET_DENSITY := xxhdpi
