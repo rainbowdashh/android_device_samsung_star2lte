@@ -16,6 +16,8 @@ PRODUCT_MODEL := SM-G965F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+#Kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/universal9810-star
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1440
